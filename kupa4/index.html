@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Item Page</title>
+    <link rel="stylesheet" href="/kupa4/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="food-item">
+            <img src="https://media.istockphoto.com/id/917919440/photo/japanese-food.jpg?s=612x612&w=0&k=20&c=NIq7qXf7XAM62Po6F2KrHpJZBQiaUvX_DIZw9v-B__c=" class="food-image">
+
+            <div class="food-details">
+                <h1>Japan Hainanese Sashimi</h1>
+                <p>Japanese food</p>
+                <!-- Removed <br> from here -->
+                <span class="heart-icon">❤️</span>
+            </div>
+
+            <div class="price-section">
+                <div class="quantity">
+                    <button class="quantity-btn">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="quantity-btn">+</button>
+                </div>
+                <p class="price">$39.99</p>
+            </div>
+
+            <div class="sauce-section">
+                <h2>Sauce</h2>
+                <div class="sauce-option">
+                    <input type="checkbox" id="teriyaki" name="teriyaki" checked>
+                    <label for="teriyaki">Teriyaki</label>
+                    <span class="sauce-price">$0</span>
+                </div>
+                <div class="sauce-option">
+                    <input type="checkbox" id="yakiniku" name="yakiniku">
+                    <label for="yakiniku">Yakiniku</label>
+                    <span class="sauce-price">$0</span>
+                </div>
+            </div>
+
+            <div class="topping-section">
+                <h2>Add a Topping?</h2>
+                <div class="topping-option">
+                    <input type="checkbox" id="sausage" name="sausage">
+                    <label for="sausage">Sausage</label>
+                    <span class="topping-price">$3</span>
+                </div>
+            </div>
+
+            <div class="add-to-cart">
+                <a href="/kupa1/index.html" target="_blank"><button class="cart-btn">Add to Cart ($41.99)</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

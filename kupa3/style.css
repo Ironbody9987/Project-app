@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 700px;
+}
+
+.order-header {
+    text-align: center;
+    background-color: #307A59;
+    color: white;
+    padding: 20px;
+    border-radius: 10px
+}
+
+.order-header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.order-header p {
+    margin: 0;
+}
+
+.order-number {
+    font-weight: bold;
+}
+
+.cancel {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cancel a {
+    text-decoration: none;
+}
+
+.cancel-link {
+    color: red;
+    cursor: pointer;
+}
+
+.order-details {
+    margin-top: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.item,
+.totals,
+.delivery-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.item p,
+.totals p,
+.delivery-info p {
+    margin: 0;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.totals.total-payment {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.delivery-info {
+    margin-top: 20px;
+}
+
+.shipping-status {
+    text-align: center;
+    font-style: italic;
+    color: #307A59;
+}
+
+.back-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #EBF2EF;
+    color: #307A59;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="/sigh in/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <a href="/kupa5/index.html"><img src="/sigh in/pic/return.png" alt="return"></a>
+        <div class="header">
+        </div>
+        <section></section>
+
+
+        <div class="sign-in-option sign-in-gg" onclick="signInWithGoogle()">
+            <img src="/sigh in/pic/1298745_google_brand_branding_logo_network_icon.svg" width="30px" alt="Google Icon">
+            <p>Sign in with Google</p>
+        </div>
+
+        <div class="sign-in-option sign-in-ap" onclick="signInWithApple()">
+            <img src="/sigh in/pic/367618_apple_ipad_ipod_mac_macintosh_icon.svg" width="30px" alt="Apple Icon">
+            <p>Sign in with Apple</p>
+        </div>
+    </div>
+
+
+    <script>
+        function signInWithGoogle() {
+            window.open("https://www.google.com", "_blank");
+        }
+
+        function signInWithApple() {
+            window.open("https://www.apple.com", "_blank");
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/sigh in2/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-card">
+            <a href="/kupa5/index.html" target="_blank"><img src="/sigh in/pic/return.png" alt="return"></a>
+            <h2>Welcome Back 👋</h2>
+            <p>Sign to your account</p>
+            <form action="#">
+                <div class="input-group">
+                    <b><label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email"></b>
+                </div>
+                <div class="input-group">
+                    <b><label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Your password">
+                        <a href="#" class="forgot-password">Forgot Password?</a></b>
+                </div>
+                <a href="/home/index.html" target="_blank"><button type="submit" class="login-btn">Login</button></a>
+            </form>
+            <center>
+                <p class="signup-text">Don't have an account? <a href="/home/index.html" target="_blank">Sign Up</a></p>
+            </center>
+            <p class="or-text">----------------------------------Or with---------------------------------</p>
+            <div class="sign-in-option sign-in-gg" onclick="signInWithGoogle()">
+                <img src="/sigh in/pic/1298745_google_brand_branding_logo_network_icon.svg" width="30px" alt="Google Icon">
+                <p>Sign in with Google</p>
+            </div>
+
+            <div class="sign-in-option sign-in-ap" onclick="signInWithApple()">
+                <img src="/sigh in/pic/367618_apple_ipad_ipod_mac_macintosh_icon.svg" width="30px" alt="Apple Icon">
+                <p>Sign in with Apple</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function signInWithGoogle() {
+            window.open("https://www.google.com", "_blank");
+        }
+
+        function signInWithApple() {
+            window.open("https://www.apple.com", "_blank");
+        }
+    </script>
+</body>
+
+</html>

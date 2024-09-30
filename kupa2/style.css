@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #333;
+}
+
+.container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #307A59;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.search-bar {
+    margin-top: 15px;
+}
+
+.search-bar input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.filter-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.filter-menu ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.filter-menu ul li a:hover {
+    background-color: #307A59;
+    color: white;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #4CAF50;
+    margin-top: 5px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #f0f0f0;
+    border-radius: 0 0 15px 15px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-item img {
+    width: 25px;
+    height: 25px;
+}
+
+.nav-item p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.nav-item:hover p {
+    color: #28a745;
+}

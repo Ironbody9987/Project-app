@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 700px;
+}
+
+.food-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.food-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.food-details h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.food-details p {
+    color: #999;
+    font-size: 14px;
+}
+
+.heart-icon {
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.quantity-value {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sauce-section,
+.topping-section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sauce-option,
+.topping-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.sauce-price,
+.topping-price {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cart-btn {
+    background-color: #307A59;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cart-btn:hover {
+    background-color: #27ae60;
+}
